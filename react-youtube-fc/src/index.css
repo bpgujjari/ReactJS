@@ -1,0 +1,17 @@
+.App{
+  text-align: center;
+}
+.coctail-data{
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 1rem;
+}
+.coctail-data li img {
+  width: 100%;
+}
+@media screen and (min-width:769px) {
+  .coctail-data{
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
